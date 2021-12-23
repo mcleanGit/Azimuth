@@ -1,4 +1,5 @@
-/* box-sizing border-box normalizes box sizes by including padding and margins */
+/* box-sizing border-box normalizes box sizes 
+by including padding and margins */
 * {
     box-sizing: border-box; 
     padding: 0;
@@ -10,25 +11,26 @@ body {
     background-color: #d9dcd6;
 }
 
-/* styles look of header */
-/* currently as div class? change to semantic? tbd */
-.header {
+/* styles header */
+/* changed from div class=header to semantic header */
+/* adjusted styles of .header elements accordingly */ 
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+/* changed div to nav semantic */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,24 +38,25 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* styles color of header anchors */
+/* styles color of header anchors, no change required */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/* styles font-size of header anchors AODA OK? */
+/* to review/resize re AODA accessibility */
 p {
     font-size: 16px;
 }
 /* styles hero-jumbtron image */
+/* requires continued use of class="hero" */
 .hero {
     height: 800px;
     width: 100%;
@@ -72,13 +75,14 @@ p {
     float: right;
     margin-left: 25px;
 }
+
 /* overall style of three content boxes */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/* to develop these as sidebar */
+/* to develop these as aside/sidebar semantic tbd */
 .benefits {
     margin-right: 20px;
     padding: 20px;
