@@ -1,13 +1,17 @@
+/* box-sizing border-box normalizes box sizes by including padding and margins */
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
     padding: 0;
     margin: 0;
 }
 
+/* styles overall light grey background-color */
 body {
     background-color: #d9dcd6;
 }
 
+/* styles look of header */
+/* currently as div class? change to semantic? tbd */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +44,16 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* styles color of header anchors */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* styles font-size of header anchors AODA OK? */
 p {
     font-size: 16px;
 }
-
+/* styles hero-jumbtron image */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +62,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* utility positioning styles */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,13 +72,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* overall style of three content boxes */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* to develop these as sidebar */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,7 +137,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* to move these higher - main content */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,7 +191,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* styles footer - complete */
 .footer {
     padding: 30px;
     clear: both;
