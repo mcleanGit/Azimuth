@@ -195,14 +195,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* styles footer - complete */
-.footer {
+/* changed from div class= footer to semantic */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* use h3 vs h2 for smaller font-size */
+footer h3 {
     font-size: 20px;
 }
