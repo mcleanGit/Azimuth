@@ -42,3 +42,10 @@ The source code/page was tested for links. All were functional with exception of
 End of README.md
 
 
+
+![Screen Shot 1 of 3 of webpage](https://user-images.githubusercontent.com/94858165/147422260-d1c29718-7c0d-4845-b35a-7dae2d72bebf.png)
+![Screen Shot 2 of 3 of webpage](https://user-images.githubusercontent.com/94858165/147422261-0baf4c05-7b0a-457a-ba80-48e7b4017c6e.png)
+![Screen Shot 3 of 3 of webpage](https://user-images.githubusercontent.com/94858165/147422262-255a0775-f5fd-4bce-87f3-9243bc9a22e0.png)
+
+
+
